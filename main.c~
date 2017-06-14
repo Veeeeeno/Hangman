@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "my_string.h"
+
+int main(int argc, char* argv[])
+{
+  MY_STRING hMy_string = NULL;
+  hRString = my_string_init_default();
+  hAString = my_string_init_default();
+
+  if
+  
+  if (my_string_concat(hRString, hAString))
+    {
+      printf("Sucess!\n");
+    }
+  else
+    {
+      printf("Failure\n");
+    }
+
+
+  my_string_destroy(&hRString);
+  my_string_destroy(&hAString);
+  return 0;
+}
