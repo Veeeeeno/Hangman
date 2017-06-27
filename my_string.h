@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "status.h"
+//#include "generic.h"
 
 typedef void* MY_STRING;
 
@@ -28,4 +29,5 @@ char* my_string_at(MY_STRING hMy_string, int index);
 Status my_string_concat(MY_STRING hResult, MY_STRING hAppend);
 
 Boolean my_string_empty(MY_STRING hMy_string);
-		       
+
+//void my_string_destroy(Item* pItem);
